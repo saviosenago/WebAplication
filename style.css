@@ -1,0 +1,70 @@
+.Texto1{
+    margin-top: 10%;
+    margin-left: 40%;
+    font-family: fantasy;
+    color: blue;
+    animation: shine 2s infinite alternate;
+   }
+
+   @keyframes shine {
+    from {
+        color: #fff; /* Cor inicial do texto */
+        text-shadow: none; /* Sombra inicial */
+    }
+    to {
+        color: #1b1ed3; /* Cor brilhante */
+        text-shadow: 0 0 10px #6d85f3, 0 0 20px #3b64af, 0 0 30px #3bf8ff; /* Sombra brilhante */
+    }
+}
+
+   body{
+    background-color: black;
+    
+   }
+
+   .gif-cont{
+    margin-left: 37%;
+   }
+
+   .gif-cont img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .botao{
+    background: #0066A2;
+color: white;
+border-style: outset;
+border-color: #0066A2;
+height: 50px;
+width: 400px;
+font: bold15px arial,sans-serif;
+text-shadow: none;
+margin-left: 40%;
+margin-top: 2%;
+border-radius: 20px;
+animation: shine 2s infinite alternate;
+    
+  }
+
+  @keyframes shine {
+    from {
+        color: #fff; /* Cor inicial do texto */
+        text-shadow: none; /* Sombra inicial */
+    }
+    to {
+        color: #1b1ed3; /* Cor brilhante */
+        text-shadow: 0 0 10px #6d85f3, 0 0 20px #3b64af, 0 0 30px #3bf8ff; /* Sombra brilhante */
+    }
+}
+
+  .botao:hover{
+    background: #5eace7;
+color: #fff;
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 5px 5px 5px #eee;
+text-shadow: none;
+  }
+
+ 
